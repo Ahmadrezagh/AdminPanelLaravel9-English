@@ -18,7 +18,7 @@ class SettingSeeder extends Seeder
             [   'name' => 'name',
                 'type'=>'string',
                 'description'=>'Website name',
-                'value'=>'Admin Panel Laravel 8',
+                'value'=>'Admin Panel Laravel 9',
                 'setting_group_id'=>'1'
             ],
             [   'name' => 'logo',
