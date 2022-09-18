@@ -56,7 +56,7 @@ class UserController extends Controller
     public function store(StoreUserRequest $request)
     {
         $user = User::create($request->validated());
-        alert()->success('کاربر با موفقیت ایجاد شد');
+        alert()->success('User created successfully');
         return back();
     }
 
@@ -100,7 +100,7 @@ class UserController extends Controller
                 'profile' => $image
             ]);
         }
-        alert()->success('کاربر با موفقیت ویرایش شد');
+        alert()->success('User updated successfully');
         return back();
     }
 
@@ -113,7 +113,7 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         $user->delete();
-        alert()->success('کاربر با موفقیت حذف شد');
+        alert()->success('User deleted successfully');
         return back();
     }
 }

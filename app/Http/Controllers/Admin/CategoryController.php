@@ -59,7 +59,7 @@ class CategoryController extends Controller
             'parent_id' => ($request->parent_id > 0) ? $request->parent_id : null,
 //            'slug' => make_slug($request->name)
         ]);
-        alert()->success('دسته بندی با موفقیت ایجاد شد');
+        alert()->success('Category created successfully');
         return back();
     }
 
@@ -102,7 +102,7 @@ class CategoryController extends Controller
             'parent_id' => ($request->parent_id > 0) ? $request->parent_id : null,
 //            'slug' => make_slug($request->name)
         ]);
-        alert()->success('دسته بندی با موفقیت ویرایش شد');
+        alert()->success('Category updated successfully');
         return back();
     }
 
@@ -115,7 +115,7 @@ class CategoryController extends Controller
     public function destroy($id)
     {
         Category::findOrfail($id)->delete();
-        alert()->success('دسته بندی با موفقیت حذف شد');
+        alert()->success('Category deleted successfully');
         return back();
     }
 }

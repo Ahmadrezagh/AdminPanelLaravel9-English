@@ -19,10 +19,12 @@
 
 ## Installation guid
 
-- `git clone git@github.com:Ahmadrezagh/AdminPanelLaravel9-English.git`
-- `composer install`
-- `php artisan install`
-- `php artisan reset` [this is for reseting database]
+- run `git clone git@github.com:Ahmadrezagh/AdminPanelLaravel9-English.git`
+- copy `.env.example` to `.env`
+- edit database part in `.env`
+- run `composer install`
+- run `php artisan install`
+- run `php artisan reset` [this is for reseting database]
 
 
 ## Users

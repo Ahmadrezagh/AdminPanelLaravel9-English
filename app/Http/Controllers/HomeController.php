@@ -28,9 +28,6 @@ class HomeController extends Controller
         if(Auth::user()->isAdmin() || Auth::user()->isSuperAdmin())
         {
             return view('admin.index');
-        }elseif(Auth::user()->isUser())
-        {
-            return "Hello User";
         }
 
     }
