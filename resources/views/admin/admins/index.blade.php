@@ -64,7 +64,7 @@
                                                             </div>
                                                             <div class="form-group">
                                                                 <label for="exampleInputPassword1">Retype password</label>
-                                                                <input type="password" name="re_password" class="form-control @error('re_password') is-invalid @enderror"  id="exampleInputPassword1" placeholder="Password" required>
+                                                                <input type="password" name="password_confirmation" class="form-control @error('password_confirmation') is-invalid @enderror"  id="exampleInputPassword1" placeholder="Password" required>
                                                             </div>
                                                             <div class="form-group">
                                                                 <label for="exampleFormControlSelect1">Select Role</label>
@@ -159,7 +159,7 @@
                                                                             </div>
                                                                             <div class="form-group">
                                                                                 <label for="exampleInputPassword1">Retype password</label>
-                                                                                <input type="password" name="re_password" class="form-control" id="exampleInputPassword1" placeholder="Password" >
+                                                                                <input type="password" name="password_confirmation" class="form-control" id="exampleInputPassword1" placeholder="Password" >
                                                                             </div>
                                                                             <div class="form-group">
                                                                                 <label for="exampleFormControlSelect1">Select Role</label>
@@ -296,7 +296,7 @@
                                                                         </div>
                                                                         <div class="form-group">
                                                                             <label for="exampleInputPassword1">Retype password</label>
-                                                                            <input type="password" name="re_password" class="form-control" id="exampleInputPassword1" placeholder="Password" >
+                                                                            <input type="password" name="password_confirmation" class="form-control" id="exampleInputPassword1" placeholder="Password" >
                                                                         </div>
                                                                         <div class="form-group">
                                                                             <label for="exampleFormControlSelect1">Select Role</label>
